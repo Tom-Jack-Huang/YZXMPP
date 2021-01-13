@@ -1,0 +1,6 @@
+framework module Pods_YZXMPP {
+  umbrella header "Pods-YZXMPP-umbrella.h"
+
+  export *
+  module * { export * }
+}

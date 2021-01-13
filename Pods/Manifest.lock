@@ -1,0 +1,74 @@
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - CocoaAsyncSocket (7.6.5)
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - CocoaSecurity (1.2.4)
+  - KissXML (5.3.1):
+    - KissXML/All (= 5.3.1)
+  - KissXML/Additions (5.3.1):
+    - KissXML/Core
+  - KissXML/All (5.3.1):
+    - KissXML/Additions
+    - KissXML/Core
+  - KissXML/Core (5.3.1)
+  - libidn (1.35)
+  - MJExtension (3.2.2)
+  - XMPPFramework (4.0.0):
+    - XMPPFramework/default (= 4.0.0)
+  - XMPPFramework/default (4.0.0):
+    - CocoaAsyncSocket (~> 7.6)
+    - CocoaLumberjack
+    - KissXML (~> 5.2)
+    - libidn (~> 1.35)
+  - YTKNetwork (3.0.4):
+    - AFNetworking/NSURLSession (~> 4.0)
+
+DEPENDENCIES:
+  - BGFMDB
+  - CocoaSecurity
+  - MJExtension
+  - XMPPFramework
+  - YTKNetwork
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - BGFMDB
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - CocoaSecurity
+    - KissXML
+    - libidn
+    - MJExtension
+    - XMPPFramework
+    - YTKNetwork
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  CocoaSecurity: d288a6f87e0f363823d2cb83e753814a6944f71a
+  KissXML: 5c8e0f2e8b9f071d3e1ae123dec3eb5da615c10c
+  libidn: e4576a956b797c584c77aaedfc6e3dd639b61bdc
+  MJExtension: d9b9c74cbdeb724c1e9ecbb157b318276e62e876
+  XMPPFramework: 5d31ff9f73dce031b24bc49bcf88093627a3a86e
+  YTKNetwork: a096f80c18c7e7cc0e623a0fbea0a1bfd3f5bcf2
+
+PODFILE CHECKSUM: 97f3888c0177a08aaf2a946dce74fb86c9f7003a
+
+COCOAPODS: 1.10.0

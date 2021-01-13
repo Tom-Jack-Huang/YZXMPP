@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1843186D25AC2F97009A7655 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843186C25AC2F97009A7655 /* AppDelegate.m */; };
+		1843187325AC2F97009A7655 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843187225AC2F97009A7655 /* ViewController.m */; };
+		1843187825AC2F98009A7655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1843187725AC2F98009A7655 /* Assets.xcassets */; };
+		1843187B25AC2F98009A7655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1843187925AC2F98009A7655 /* LaunchScreen.storyboard */; };
+		1843187E25AC2F98009A7655 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843187D25AC2F98009A7655 /* main.m */; };
+		1843189925AC30E6009A7655 /* YZXMPPManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843189825AC30E6009A7655 /* YZXMPPManage.m */; };
+		1843189E25AC334A009A7655 /* YZKitConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1843189D25AC334A009A7655 /* YZKitConfig.m */; };
+		184318A225AC4E65009A7655 /* YZXMPPManage+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 184318A125AC4E65009A7655 /* YZXMPPManage+Message.m */; };
+		18CF3F4025AE875A00D598D9 /* YZMultipleLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CF3F3F25AE875A00D598D9 /* YZMultipleLogin.m */; };
+		18ED89E625AD3B7E0015A710 /* YZIMMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED89E525AD3B7E0015A710 /* YZIMMessage.m */; };
+		18ED89F725AD6CED0015A710 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED89F625AD6CED0015A710 /* UserInfo.m */; };
+		18ED8A2A25AD76170015A710 /* YZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED8A2925AD76170015A710 /* YZRequest.m */; };
+		18ED8A3025AD76A30015A710 /* LoginYZYZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED8A2F25AD76A30015A710 /* LoginYZYZRequest.m */; };
+		18ED8A3525AD79550015A710 /* YZViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED8A3425AD79550015A710 /* YZViewModel.m */; };
+		18ED8A5E25AD7CE60015A710 /* NSArray+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED8A5725AD7CE60015A710 /* NSArray+HYBUnicodeReadable.m */; };
+		18ED8A5F25AD7CE60015A710 /* NSDictionary+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED8A5825AD7CE60015A710 /* NSDictionary+HYBUnicodeReadable.m */; };
+		18ED8A6025AD7CE60015A710 /* NSSet+HYBUnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED8A5925AD7CE60015A710 /* NSSet+HYBUnicodeReadable.m */; };
+		18ED8A6125AD7CE60015A710 /* MyLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED8A5D25AD7CE60015A710 /* MyLog.m */; };
+		EDE2F40925D483E5F85AD610 /* Pods_YZXMPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BA47A03F9CB4905C1F8857 /* Pods_YZXMPP.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17BA47A03F9CB4905C1F8857 /* Pods_YZXMPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YZXMPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1843186825AC2F97009A7655 /* YZXMPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZXMPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1843186B25AC2F97009A7655 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1843186C25AC2F97009A7655 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1843187125AC2F97009A7655 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1843187225AC2F97009A7655 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1843187725AC2F98009A7655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1843187A25AC2F98009A7655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1843187C25AC2F98009A7655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1843187D25AC2F98009A7655 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1843189725AC30E6009A7655 /* YZXMPPManage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXMPPManage.h; sourceTree = "<group>"; };
+		1843189825AC30E6009A7655 /* YZXMPPManage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXMPPManage.m; sourceTree = "<group>"; };
+		1843189C25AC334A009A7655 /* YZKitConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZKitConfig.h; sourceTree = "<group>"; };
+		1843189D25AC334A009A7655 /* YZKitConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZKitConfig.m; sourceTree = "<group>"; };
+		184318A025AC4E65009A7655 /* YZXMPPManage+Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YZXMPPManage+Message.h"; sourceTree = "<group>"; };
+		184318A125AC4E65009A7655 /* YZXMPPManage+Message.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YZXMPPManage+Message.m"; sourceTree = "<group>"; };
+		18CF3F3E25AE875A00D598D9 /* YZMultipleLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMultipleLogin.h; sourceTree = "<group>"; };
+		18CF3F3F25AE875A00D598D9 /* YZMultipleLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMultipleLogin.m; sourceTree = "<group>"; };
+		18ED89E425AD3B7E0015A710 /* YZIMMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZIMMessage.h; sourceTree = "<group>"; };
+		18ED89E525AD3B7E0015A710 /* YZIMMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZIMMessage.m; sourceTree = "<group>"; };
+		18ED89E825AD44450015A710 /* YZHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZHeader.h; sourceTree = "<group>"; };
+		18ED89F525AD6CED0015A710 /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		18ED89F625AD6CED0015A710 /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		18ED8A2825AD76170015A710 /* YZRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZRequest.h; sourceTree = "<group>"; };
+		18ED8A2925AD76170015A710 /* YZRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZRequest.m; sourceTree = "<group>"; };
+		18ED8A2E25AD76A30015A710 /* LoginYZYZRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginYZYZRequest.h; sourceTree = "<group>"; };
+		18ED8A2F25AD76A30015A710 /* LoginYZYZRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginYZYZRequest.m; sourceTree = "<group>"; };
+		18ED8A3325AD79550015A710 /* YZViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZViewModel.h; sourceTree = "<group>"; };
+		18ED8A3425AD79550015A710 /* YZViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZViewModel.m; sourceTree = "<group>"; };
+		18ED8A5025AD7C7A0015A710 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		18ED8A5525AD7CE60015A710 /* MyLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLog.h; sourceTree = "<group>"; };
+		18ED8A5725AD7CE60015A710 /* NSArray+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		18ED8A5825AD7CE60015A710 /* NSDictionary+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		18ED8A5925AD7CE60015A710 /* NSSet+HYBUnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HYBUnicodeReadable.m"; sourceTree = "<group>"; };
+		18ED8A5A25AD7CE60015A710 /* NSArray+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		18ED8A5B25AD7CE60015A710 /* NSDictionary+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		18ED8A5C25AD7CE60015A710 /* NSSet+HYBUnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HYBUnicodeReadable.h"; sourceTree = "<group>"; };
+		18ED8A5D25AD7CE60015A710 /* MyLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLog.m; sourceTree = "<group>"; };
+		C3D6511242A6FF73337AD1EB /* Pods-YZXMPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZXMPP.release.xcconfig"; path = "Target Support Files/Pods-YZXMPP/Pods-YZXMPP.release.xcconfig"; sourceTree = "<group>"; };
+		CFAA1CC5807C563AF2721FD0 /* Pods-YZXMPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YZXMPP.debug.xcconfig"; path = "Target Support Files/Pods-YZXMPP/Pods-YZXMPP.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1843186525AC2F97009A7655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDE2F40925D483E5F85AD610 /* Pods_YZXMPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1843185F25AC2F97009A7655 = {
+			isa = PBXGroup;
+			children = (
+				1843186A25AC2F97009A7655 /* YZXMPP */,
+				1843186925AC2F97009A7655 /* Products */,
+				E9BB404BAED41131220F1882 /* Pods */,
+				71907C9B209E500E1CE337E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1843186925AC2F97009A7655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1843186825AC2F97009A7655 /* YZXMPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1843186A25AC2F97009A7655 /* YZXMPP */ = {
+			isa = PBXGroup;
+			children = (
+				18ED8A5425AD7CE60015A710 /* NSLogHelper */,
+				18ED89F325AD6CD40015A710 /* IM */,
+				1843186B25AC2F97009A7655 /* AppDelegate.h */,
+				1843186C25AC2F97009A7655 /* AppDelegate.m */,
+				1843187125AC2F97009A7655 /* ViewController.h */,
+				1843187225AC2F97009A7655 /* ViewController.m */,
+				1843187725AC2F98009A7655 /* Assets.xcassets */,
+				1843187925AC2F98009A7655 /* LaunchScreen.storyboard */,
+				1843187C25AC2F98009A7655 /* Info.plist */,
+				1843187D25AC2F98009A7655 /* main.m */,
+				18ED8A5025AD7C7A0015A710 /* PrefixHeader.pch */,
+			);
+			path = YZXMPP;
+			sourceTree = "<group>";
+		};
+		1843189625AC30C8009A7655 /* XMPPTool */ = {
+			isa = PBXGroup;
+			children = (
+				1843189725AC30E6009A7655 /* YZXMPPManage.h */,
+				1843189825AC30E6009A7655 /* YZXMPPManage.m */,
+				184318A025AC4E65009A7655 /* YZXMPPManage+Message.h */,
+				184318A125AC4E65009A7655 /* YZXMPPManage+Message.m */,
+				1843189C25AC334A009A7655 /* YZKitConfig.h */,
+				1843189D25AC334A009A7655 /* YZKitConfig.m */,
+				18ED89E825AD44450015A710 /* YZHeader.h */,
+				18CF3F3E25AE875A00D598D9 /* YZMultipleLogin.h */,
+				18CF3F3F25AE875A00D598D9 /* YZMultipleLogin.m */,
+			);
+			path = XMPPTool;
+			sourceTree = "<group>";
+		};
+		18ED89F325AD6CD40015A710 /* IM */ = {
+			isa = PBXGroup;
+			children = (
+				18ED8A3225AD79400015A710 /* ViewModel */,
+				18ED8A2625AD741D0015A710 /* network */,
+				18ED89F425AD6CDC0015A710 /* Model */,
+				1843189625AC30C8009A7655 /* XMPPTool */,
+			);
+			path = IM;
+			sourceTree = "<group>";
+		};
+		18ED89F425AD6CDC0015A710 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18ED89E425AD3B7E0015A710 /* YZIMMessage.h */,
+				18ED89E525AD3B7E0015A710 /* YZIMMessage.m */,
+				18ED89F525AD6CED0015A710 /* UserInfo.h */,
+				18ED89F625AD6CED0015A710 /* UserInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18ED8A2625AD741D0015A710 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				18ED8A2D25AD76740015A710 /* 登录 */,
+				18ED8A2825AD76170015A710 /* YZRequest.h */,
+				18ED8A2925AD76170015A710 /* YZRequest.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		18ED8A2D25AD76740015A710 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				18ED8A2E25AD76A30015A710 /* LoginYZYZRequest.h */,
+				18ED8A2F25AD76A30015A710 /* LoginYZYZRequest.m */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		18ED8A3225AD79400015A710 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18ED8A3325AD79550015A710 /* YZViewModel.h */,
+				18ED8A3425AD79550015A710 /* YZViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18ED8A5425AD7CE60015A710 /* NSLogHelper */ = {
+			isa = PBXGroup;
+			children = (
+				18ED8A5525AD7CE60015A710 /* MyLog.h */,
+				18ED8A5625AD7CE60015A710 /* 打印集合类中的数据 */,
+				18ED8A5D25AD7CE60015A710 /* MyLog.m */,
+			);
+			path = NSLogHelper;
+			sourceTree = "<group>";
+		};
+		18ED8A5625AD7CE60015A710 /* 打印集合类中的数据 */ = {
+			isa = PBXGroup;
+			children = (
+				18ED8A5725AD7CE60015A710 /* NSArray+HYBUnicodeReadable.m */,
+				18ED8A5825AD7CE60015A710 /* NSDictionary+HYBUnicodeReadable.m */,
+				18ED8A5925AD7CE60015A710 /* NSSet+HYBUnicodeReadable.m */,
+				18ED8A5A25AD7CE60015A710 /* NSArray+HYBUnicodeReadable.h */,
+				18ED8A5B25AD7CE60015A710 /* NSDictionary+HYBUnicodeReadable.h */,
+				18ED8A5C25AD7CE60015A710 /* NSSet+HYBUnicodeReadable.h */,
+			);
+			path = "打印集合类中的数据";
+			sourceTree = "<group>";
+		};
+		71907C9B209E500E1CE337E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17BA47A03F9CB4905C1F8857 /* Pods_YZXMPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9BB404BAED41131220F1882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFAA1CC5807C563AF2721FD0 /* Pods-YZXMPP.debug.xcconfig */,
+				C3D6511242A6FF73337AD1EB /* Pods-YZXMPP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1843186725AC2F97009A7655 /* YZXMPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1843188125AC2F98009A7655 /* Build configuration list for PBXNativeTarget "YZXMPP" */;
+			buildPhases = (
+				6A4269E9293DD354E11A992D /* [CP] Check Pods Manifest.lock */,
+				1843186425AC2F97009A7655 /* Sources */,
+				1843186525AC2F97009A7655 /* Frameworks */,
+				1843186625AC2F97009A7655 /* Resources */,
+				7972C21E999AF6CBF9EC99D9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZXMPP;
+			productName = YZXMPP;
+			productReference = 1843186825AC2F97009A7655 /* YZXMPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1843186025AC2F97009A7655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1843186725AC2F97009A7655 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 1843186325AC2F97009A7655 /* Build configuration list for PBXProject "YZXMPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1843185F25AC2F97009A7655;
+			productRefGroup = 1843186925AC2F97009A7655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1843186725AC2F97009A7655 /* YZXMPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1843186625AC2F97009A7655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1843187B25AC2F98009A7655 /* LaunchScreen.storyboard in Resources */,
+				1843187825AC2F98009A7655 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A4269E9293DD354E11A992D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YZXMPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7972C21E999AF6CBF9EC99D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YZXMPP/Pods-YZXMPP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YZXMPP/Pods-YZXMPP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YZXMPP/Pods-YZXMPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1843186425AC2F97009A7655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18ED89F725AD6CED0015A710 /* UserInfo.m in Sources */,
+				18ED8A2A25AD76170015A710 /* YZRequest.m in Sources */,
+				1843187325AC2F97009A7655 /* ViewController.m in Sources */,
+				18ED8A6125AD7CE60015A710 /* MyLog.m in Sources */,
+				18CF3F4025AE875A00D598D9 /* YZMultipleLogin.m in Sources */,
+				1843186D25AC2F97009A7655 /* AppDelegate.m in Sources */,
+				18ED8A5E25AD7CE60015A710 /* NSArray+HYBUnicodeReadable.m in Sources */,
+				1843189E25AC334A009A7655 /* YZKitConfig.m in Sources */,
+				18ED8A5F25AD7CE60015A710 /* NSDictionary+HYBUnicodeReadable.m in Sources */,
+				18ED8A6025AD7CE60015A710 /* NSSet+HYBUnicodeReadable.m in Sources */,
+				18ED8A3025AD76A30015A710 /* LoginYZYZRequest.m in Sources */,
+				18ED8A3525AD79550015A710 /* YZViewModel.m in Sources */,
+				18ED89E625AD3B7E0015A710 /* YZIMMessage.m in Sources */,
+				1843189925AC30E6009A7655 /* YZXMPPManage.m in Sources */,
+				184318A225AC4E65009A7655 /* YZXMPPManage+Message.m in Sources */,
+				1843187E25AC2F98009A7655 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1843187925AC2F98009A7655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1843187A25AC2F98009A7655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1843187F25AC2F98009A7655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1843188025AC2F98009A7655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1843188225AC2F98009A7655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFAA1CC5807C563AF2721FD0 /* Pods-YZXMPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMHZDS43MF;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YZXMPP/PrefixHeader.pch";
+				INFOPLIST_FILE = YZXMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuze.YZXMPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1843188325AC2F98009A7655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D6511242A6FF73337AD1EB /* Pods-YZXMPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QMHZDS43MF;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YZXMPP/PrefixHeader.pch";
+				INFOPLIST_FILE = YZXMPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuze.YZXMPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1843186325AC2F97009A7655 /* Build configuration list for PBXProject "YZXMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1843187F25AC2F98009A7655 /* Debug */,
+				1843188025AC2F98009A7655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1843188125AC2F98009A7655 /* Build configuration list for PBXNativeTarget "YZXMPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1843188225AC2F98009A7655 /* Debug */,
+				1843188325AC2F98009A7655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1843186025AC2F97009A7655 /* Project object */;
+}

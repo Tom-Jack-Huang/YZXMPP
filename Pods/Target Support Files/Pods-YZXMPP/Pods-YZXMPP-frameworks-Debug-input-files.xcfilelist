@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-YZXMPP/Pods-YZXMPP-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
+${BUILT_PRODUCTS_DIR}/BGFMDB/BGFMDB.framework
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
+${BUILT_PRODUCTS_DIR}/CocoaSecurity/CocoaSecurity.framework
+${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework
+${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework
+${BUILT_PRODUCTS_DIR}/XMPPFramework/XMPPFramework.framework
+${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework
+${BUILT_PRODUCTS_DIR}/libidn/libidn.framework
